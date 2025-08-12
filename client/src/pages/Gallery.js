@@ -1,12 +1,13 @@
-import React from 'react';
+import { Container, Typography } from '@mui/material';
 
 function Gallery() {
   return (
-    <div>
-      <h1>Wedding Photo Gallery</h1>
-      {/* Placeholder for images */}
-      <p>Gallery will display wedding photos here.</p>
-    </div>
+    <Container maxWidth="md" sx={{ mt: 4 }}>
+      <Typography variant="h3" gutterBottom>
+        Gallery Page
+      </Typography>
+      {/* Gallery content goes here */}
+    </Container>
   );
 }
 
