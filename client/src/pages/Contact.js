@@ -1,12 +1,15 @@
-import React from 'react';
+
+import { Container, Typography } from '@mui/material';
 
 function Contact() {
   return (
-    <div>
-      <h1>Contact Us</h1>
+    <Container maxWidth="md" sx={{ mt: 4 }}>
+      <Typography variant="h3" gutterBottom>
+        Contact Us
+      </Typography>
       {/* Placeholder for contact form */}
-      <p>Contact form will be here.</p>
-    </div>
+      <Typography variant="body1">Contact form will be here.</Typography>
+    </Container>
   );
 }
 

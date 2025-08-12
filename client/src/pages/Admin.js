@@ -1,12 +1,15 @@
-import React from 'react';
+
+import { Container, Typography } from '@mui/material';
 
 function Admin() {
   return (
-    <div>
-      <h1>Admin Dashboard</h1>
+    <Container maxWidth="md" sx={{ mt: 4 }}>
+      <Typography variant="h3" gutterBottom>
+        Admin Dashboard
+      </Typography>
       {/* Placeholder for image upload form */}
-      <p>Upload wedding photos here.</p>
-    </div>
+      <Typography variant="body1">Upload wedding photos here.</Typography>
+    </Container>
   );
 }
 
