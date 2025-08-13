@@ -20,9 +20,9 @@ const Home = () => (
       <Button component={Link} to="/contact" variant="outlined" color="primary" style={{ margin: '0 1rem' }}>
         Contact
       </Button>
-      <Button component={Link} to="/login" variant="outlined" color="secondary" style={{ margin: '0 1rem' }}>
-        Login
-      </Button>
+        <Button component={Link} to="/submit" variant="outlined" color="secondary" style={{ margin: '0 1rem' }}>
+          Submit
+        </Button>
     </div>
   </Container>
 );

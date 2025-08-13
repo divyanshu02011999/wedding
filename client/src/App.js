@@ -9,6 +9,7 @@ import Gallery from './pages/Gallery';
 import Admin from './pages/Admin';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
+import Submit from './pages/Submit';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/submit" element={<Submit />} />
         </Routes>
       </Container>
     </Router>
